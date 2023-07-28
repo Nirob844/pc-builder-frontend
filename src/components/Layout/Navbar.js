@@ -38,7 +38,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">PC-Stall</a>
+        <Link href="/" className="btn btn-ghost normal-case text-xl">
+          PC-Stall
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex ">
         <ul className="menu menu-horizontal px-1 ">
@@ -47,25 +49,25 @@ const Navbar = () => {
               <summary>Categories</summary>
               <ul className="p-2 bg-neutral ">
                 <li>
-                  <Link href="/">CPU / Processor</Link>
+                  <Link href="/cpu">CPU / Processor</Link>
                 </li>
                 <li>
-                  <Link href="/">Motherboard</Link>
+                  <Link href="/motherboard">Motherboard</Link>
                 </li>
                 <li>
-                  <Link href="/">RAM</Link>
+                  <Link href="/ram">RAM</Link>
                 </li>
                 <li>
-                  <Link href="/">Power Supply Unit</Link>
+                  <Link href="/power-supply">Power Supply Unit</Link>
                 </li>
                 <li>
-                  <Link href="/">Storage Device</Link>
+                  <Link href="/storage-device">Storage Device</Link>
                 </li>
                 <li>
-                  <Link href="/">Monitor</Link>
+                  <Link href="/monitor">Monitor</Link>
                 </li>
                 <li>
-                  <Link href="/">Others</Link>
+                  <Link href="/others">Others</Link>
                 </li>
               </ul>
             </details>
@@ -73,8 +75,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">PC-Builder</a>
-        <a className="btn">login</a>
+        <a className="btn btn-primary">PC-Builder</a>
+        <a className="btn btn-ghost">login</a>
       </div>
     </div>
   );
