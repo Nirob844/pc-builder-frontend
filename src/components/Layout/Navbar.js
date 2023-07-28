@@ -38,15 +38,10 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link href="/" className="btn btn-ghost normal-case text-xl">
-          PC-Stall
-        </Link>
-      </div>
-      <div className="navbar-center hidden lg:flex ">
         <ul className="menu menu-horizontal px-1 ">
           <li tabIndex={0}>
             <details>
-              <summary>Categories</summary>
+              <summary className="text-xl">Categories</summary>
               <ul className="p-2 bg-neutral ">
                 <li>
                   <Link href="/cpu">CPU / Processor</Link>
@@ -73,6 +68,11 @@ const Navbar = () => {
             </details>
           </li>
         </ul>
+      </div>
+      <div className="navbar-center hidden lg:flex ">
+        <Link href="/" className="btn btn-ghost normal-case text-xl">
+          PC-Stall
+        </Link>
       </div>
       <div className="navbar-end">
         <a className="btn btn-primary">PC-Builder</a>
