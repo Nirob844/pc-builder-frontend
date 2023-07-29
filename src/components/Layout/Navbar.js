@@ -1,6 +1,9 @@
+import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 
 const Navbar = () => {
+  const { data: session } = useSession();
+
   return (
     <div className="navbar text-white  bg-neutral shadow-xl">
       <div className="navbar-start">
@@ -105,7 +108,15 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a className="btn  ">PC-Builder</a>
-        <a className="btn btn-ghost">login</a>
+        {session?.user ? (
+          <button onClick={() => signOut()} className="btn btn-ghost">
+            Logout
+          </button>
+        ) : (
+          <Link href="/login">
+            <button className="btn btn-ghost">logIn</button>
+          </Link>
+        )}
       </div>
     </div>
   );
