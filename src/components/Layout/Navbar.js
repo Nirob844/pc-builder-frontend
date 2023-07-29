@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="navbar  bg-base-100">
+    <div className="navbar text-white  bg-neutral shadow-xl">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -38,31 +38,45 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <ul className="menu menu-horizontal px-1 ">
+        <ul className="menu menu-horizontal px-1 bg-neutral">
           <li tabIndex={0}>
-            <details>
-              <summary className="text-xl">Categories</summary>
-              <ul className="p-2 bg-neutral ">
+            <details className=" ">
+              <summary className="text-xl hover:text-white">Categories</summary>
+              <ul className="p-2 bg-neutral">
                 <li>
-                  <Link href="/cpu">CPU / Processor</Link>
+                  <Link className="hover:text-white" href="/cpu">
+                    CPU / Processor
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/motherboard">Motherboard</Link>
+                  <Link className="hover:text-white" href="/motherboard">
+                    Motherboard
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/ram">RAM</Link>
+                  <Link className="hover:text-white" href="/ram">
+                    RAM
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/power-supply">Power Supply Unit</Link>
+                  <Link className="hover:text-white" href="/power-supply">
+                    Power Supply Unit
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/storage-device">Storage Device</Link>
+                  <Link className="hover:text-white" href="/storage-device">
+                    Storage Device
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/monitor">Monitor</Link>
+                  <Link className="hover:text-white" href="/monitor">
+                    Monitor
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/others">Others</Link>
+                  <Link className="hover:text-white" href="/others">
+                    Others
+                  </Link>
                 </li>
               </ul>
             </details>

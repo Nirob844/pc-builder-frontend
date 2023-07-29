@@ -12,7 +12,7 @@ const HomePage = ({ allProducts }) => {
     "Others",
   ];
   return (
-    <div className="bg-slate-200  text-black home-container">
+    <div className="">
       <Head>
         <title>Pc-Builder</title>
         <meta

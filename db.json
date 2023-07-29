@@ -1,0 +1,246 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-5950x/ryzen-9-5950x-1-500x500.jpg",
+    "productName": "AMD Ryzen 9 5950X",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 699.99,
+    "description": "High-performance processor for gaming and content creation.",
+    "keyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 9 5950X",
+      "cores": 16,
+      "threads": 32,
+      "baseClock": "3.4 GHz",
+      "maxBoostClock": "4.9 GHz",
+      "cache": "72 MB",
+      "socket": "AM4",
+      "powerConsumption": "105W"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": 801,
+        "user": "JaneSmith",
+        "rating": 5,
+        "comment": "Incredible performance for both gaming and multitasking."
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "image": "https://www.techlandbd.com/image/catalog/RAM/Corsair/techlandbd-corsair-vengeance-1.png",
+    "productName": "Corsair Vengeance RGB Pro",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 89.99,
+    "description": "High-performance DDR4 RAM with customizable RGB lighting.",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "Vengeance RGB Pro",
+      "capacity": "16GB (2x8GB)",
+      "speed": "3200MHz",
+      "timings": "CL16-18-18-36",
+      "voltage": "1.35V",
+      "formFactor": "288-pin DIMM",
+      "memoryType": "DDR4"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "id": 201,
+        "user": "JaneSmith",
+        "rating": 4,
+        "comment": "Fast and beautiful RAM, but a bit pricey."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://dlcdnwebimgs.asus.com/files/media/B7CBA71A-2549-4C30-843E-15189BB8E78D/V1/img/z590/spec/Spec_performance_M.jpg",
+    "productName": "ASUS ROG Strix Z590-E Gaming",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 299.99,
+    "description": "High-end gaming motherboard with advanced features and RGB lighting.",
+    "keyFeatures": {
+      "brand": "ASUS",
+      "model": "ROG Strix Z590-E Gaming",
+      "chipset": "Intel Z590",
+      "socket": "LGA 1200",
+      "memorySlots": 4,
+      "maxMemory": "128GB",
+      "memoryType": "DDR4",
+      "formFactor": "ATX",
+      "expansionSlots": ["PCIe x16", "PCIe x16", "PCIe x16", "PCIe x1"],
+      "storageConnectors": ["M.2", "M.2", "SATA"],
+      "USBPorts": [
+        "USB 3.2 Gen 2 Type-A",
+        "USB 3.2 Gen 2 Type-C",
+        "USB 3.2 Gen 1",
+        "USB 2.0"
+      ],
+      "networking": ["WiFi 6E", "2.5 Gigabit Ethernet", "Bluetooth 5.2"]
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "id": 301,
+        "user": "JohnDoe",
+        "rating": 5,
+        "comment": "Excellent motherboard with great performance."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/corsair-rmx-shift-series-rm850x-850w-atx-fully-21678531579.webp",
+    "productName": "Corsair RM850x",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "High-efficiency power supply with fully modular cables.",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "RM850x",
+      "wattage": "850W",
+      "efficiency": "80 PLUS Gold",
+      "modular": "Fully Modular",
+      "fanSize": "140mm",
+      "protections": [
+        "Over Voltage",
+        "Over Current",
+        "Short Circuit",
+        "Under Voltage",
+        "Over Temperature"
+      ],
+      "certifications": [
+        "80 PLUS Gold",
+        "EPS 2.92",
+        "ATX12V 2.4",
+        "SFX",
+        "MicroATX",
+        "FlexATX"
+      ],
+      "connectors": {
+        "motherboard": "24-pin ATX",
+        "CPU": "1x 4+4-pin EPS12V/ATX12V",
+        "PCIe": "6x 6+2-pin PCIe",
+        "SATA": "10x SATA",
+        "Molex": "4x Molex"
+      }
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.4,
+    "reviews": [
+      {
+        "id": 401,
+        "user": "JaneSmith",
+        "rating": 4,
+        "comment": "Reliable PSU with ample wattage for my system."
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/970-evo-plus-1tb/970-evo-plus-1tb-500x500.jpg",
+    "productName": "Samsung 970 EVO Plus NVMe SSD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "High-performance NVMe SSD for fast data transfer and storage.",
+    "keyFeatures": {
+      "brand": "Samsung",
+      "model": "970 EVO Plus",
+      "capacity": "1TB",
+      "interface": "NVMe PCIe Gen 3 x4",
+      "formFactor": "M.2 2280",
+      "readSpeed": "3500 MB/s",
+      "writeSpeed": "3300 MB/s",
+      "endurance": "600 TBW",
+      "NANDType": "3-bit MLC V-NAND",
+      "encryption": "AES 256-bit Encryption",
+      "warranty": "5 Years"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "id": 501,
+        "user": "JohnDoe",
+        "rating": 5,
+        "comment": "Blazing fast SSD with ample storage capacity."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/lg-27gl850-27-inch-ultragear-qhd-2560x1440-nano-31578386019.webp",
+    "productName": "LG 27GL850-B UltraGear Gaming Monitor",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 449.99,
+    "description": "High-performance gaming monitor with a fast refresh rate and QHD resolution.",
+    "keyFeatures": {
+      "brand": "LG",
+      "model": "27GL850-B",
+      "displaySize": "27 inches",
+      "resolution": "2560 x 1440 (QHD)",
+      "refreshRate": "144Hz",
+      "panelType": "Nano IPS",
+      "responseTime": "1ms",
+      "HDRSupport": "HDR10",
+      "colorGamut": "DCI-P3 98%",
+      "ports": ["2 x HDMI", "1 x DisplayPort", "2 x USB 3.0"],
+      "adjustableStand": "Yes (Height, Tilt, Pivot, Swivel)",
+      "VESAMountSupport": "Yes"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "id": 601,
+        "user": "JaneSmith",
+        "rating": 4,
+        "comment": "Excellent gaming monitor with vibrant colors."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/logitech/g-pro/g-pro-01-500x500.jpg",
+    "productName": "Logitech G Pro X Mechanical Gaming Keyboard",
+    "category": "Others",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "High-quality mechanical gaming keyboard with customizable switches.",
+    "keyFeatures": {
+      "brand": "Logitech",
+      "model": "G Pro X",
+      "switchType": "GX Blue Clicky",
+      "keycaps": "Durable PBT Double-Shot",
+      "lighting": "RGB Backlit",
+      "USBPassThrough": "Yes",
+      "mediaControls": "Yes",
+      "programmableKeys": "Yes",
+      "detachableCable": "Yes",
+      "customizableSwitches": "Yes"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "id": 701,
+        "user": "JohnDoe",
+        "rating": 5,
+        "comment": "Great gaming keyboard with customizable switches."
+      }
+    ]
+  }
+]
