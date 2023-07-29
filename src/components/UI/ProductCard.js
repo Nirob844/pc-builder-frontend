@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
       </Link>
       <h3 className="mt-2 font-semibold">Category: {category}</h3>
       <p className="text-sm mt-2">Availability: {status}</p>
-      <p className="text-sm mt-2">Price: {price}</p>
+      <p className="text-sm mt-2">Price: {price}$</p>
       <p className="text-sm mt-2">Rating: {reviews?.rating}5</p>
       <button className=" mt-3 btn btn-neutral">Pc-Build</button>
     </div>
