@@ -2,15 +2,6 @@ import Products from "@/components/UI/Products";
 import Head from "next/head";
 
 const HomePage = ({ allProducts }) => {
-  const Categories = [
-    "CPU / Processor",
-    "Motherboard",
-    "RAM",
-    "Power Supply Unit",
-    "Storage Device",
-    "Monitor",
-    "Others",
-  ];
   return (
     <div className="">
       <Head>
@@ -22,40 +13,6 @@ const HomePage = ({ allProducts }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      {/* <div className={styles.homeContainer}>
-        <div className="bg-white p-2 rounded">
-          <h1 className="text-center text-4xl">Categories</h1>
-          <div className="mt-2">
-            {/* {Categories?.map((category, i) => {
-              return (
-                <div key={i} className="flex items-center mb-[8px]">
-                  <input
-                    onChange={() => setSelectCategory(category)}
-                    className="h-[18px] w-[18px]"
-                    id={category}
-                    type="radio"
-                    name="category"
-                  />
-                  <label className="text-[14px] ml-3" htmlFor={category}>
-                    {category}
-                  </label>
-                </div>
-              );
-            })} 
-            {Categories.map((category, i) => {
-              return (
-                <button className="btn btn-ghost w-full" key={i}>
-                  {category}
-                </button>
-              );
-            })}
-          </div>
-        </div>
-        <div>
-          <h1>product</h1>
-        </div>
-      </div> */}
       <Products allProducts={allProducts} />
     </div>
   );
@@ -63,13 +20,29 @@ const HomePage = ({ allProducts }) => {
 
 export default HomePage;
 
+export const shuffleArray = (array) => {
+  const shuffledArray = array.slice(); // Create a copy of the original array.
+  for (let i = shuffledArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+  }
+  return shuffledArray;
+};
+
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products"); // --> json server
+  const res = await fetch("http://localhost:5000/products");
   const data = await res.json();
-  console.log(data);
+  const allProducts = data.data;
+
+  // Shuffle the array of products to get a random order.
+  const shuffledProducts = shuffleArray(allProducts);
+
+  // Select the first 6 products from the shuffled array to get 6 random products.
+  const randomProducts = shuffledProducts.slice(0, 6);
+  console.log(randomProducts);
   return {
     props: {
-      allProducts: data.data,
+      allProducts: randomProducts,
     },
     revalidate: 10,
   };
