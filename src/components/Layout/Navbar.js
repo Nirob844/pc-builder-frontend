@@ -89,7 +89,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary">PC-Builder</a>
+        <a className="btn  btn-primary">PC-Builder</a>
         <a className="btn btn-ghost">login</a>
       </div>
     </div>

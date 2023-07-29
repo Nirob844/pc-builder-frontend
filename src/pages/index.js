@@ -1,3 +1,5 @@
+import Banner from "@/components/UI/Banner";
+import Categories from "@/components/UI/Categories";
 import Products from "@/components/UI/Products";
 import Head from "next/head";
 
@@ -13,7 +15,9 @@ const HomePage = ({ allProducts }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Banner />
       <Products allProducts={allProducts} />
+      <Categories />
     </div>
   );
 };
