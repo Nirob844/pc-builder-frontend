@@ -27,7 +27,7 @@ const Categories = () => {
     {
       title: "Power Supply Unit",
       image: "/images/power1.png",
-      href: "/categories/powersupply",
+      href: "/categories/power-supply",
     },
     {
       title: "Storage Device",
@@ -44,9 +44,7 @@ const Categories = () => {
 
   return (
     <div className="w-11/12 mx-auto py-12 ">
-      <h1 className="text-center text-2xl font-semibold mb-2">
-        Featured Categories
-      </h1>
+      <h1 className="text-center text-2xl font-semibold mb-2">Categories</h1>
       <p className="text-center mb-8">
         Get your products from our featured category!
       </p>

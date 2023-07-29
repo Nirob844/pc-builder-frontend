@@ -72,7 +72,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="hover:text-white"
-                    href="/categories/storage-device"
+                    href="/categories/storagedevice"
                   >
                     Storage Device
                   </Link>
