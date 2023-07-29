@@ -1,21 +1,19 @@
 import Products from "@/components/UI/Products";
 
-const Cpu = ({ products }) => {
+const Ram = ({ products }) => {
   console.log(products);
   return (
     <div>
-      <h1 className="mt-5 text-4xl font-bold text-center">Cpu</h1>
+      <h1 className="mt-5 text-4xl font-bold text-center">Ram</h1>
       <Products allProducts={products} />
     </div>
   );
 };
 
-export default Cpu;
+export default Ram;
 
 export const getStaticProps = async () => {
-  const res = await fetch(
-    `http://localhost:5000/categories?category=CPU%20/%20Processor`
-  );
+  const res = await fetch(`http://localhost:5000/categories?category=RAM`);
   const data = await res.json();
   console.log(data);
   return {

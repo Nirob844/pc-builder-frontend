@@ -30,62 +30,62 @@
     ]
   },
   {
-    "id": 1,
-    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-5950x/ryzen-9-5950x-1-500x500.jpg",
-    "productName": "AMD Ryzen 9 5950X",
+    "id": 1.2,
+    "image": "https://rosetech.com.bd/wp-content/uploads/2021/05/Core-i9-11900K.jpg",
+    "productName": "Intel Core i9-11900K",
     "category": "CPU / Processor",
     "status": "In Stock",
-    "price": 699.99,
-    "description": "High-performance processor for gaming and content creation.",
+    "price": 499.99,
+    "description": "A high-performance processor for gaming and content creation.",
     "keyFeatures": {
-      "brand": "AMD",
-      "model": "Ryzen 9 5950X",
-      "cores": 16,
-      "threads": 32,
-      "baseClock": "3.4 GHz",
-      "maxBoostClock": "4.9 GHz",
-      "cache": "72 MB",
-      "socket": "AM4",
-      "powerConsumption": "105W"
+      "brand": "Intel",
+      "model": "Core i9-11900K",
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "3.5 GHz",
+      "maxBoostClock": "5.3 GHz",
+      "cache": "16 MB",
+      "socket": "LGA 1200",
+      "powerConsumption": "125W"
     },
-    "individualRating": 4.9,
-    "averageRating": 4.8,
+    "individualRating": 4.8,
+    "averageRating": 4.6,
     "reviews": [
       {
-        "id": 801,
-        "user": "JaneSmith",
+        "id": 501,
+        "user": "JohnDoe",
         "rating": 5,
-        "comment": "Incredible performance for both gaming and multitasking."
+        "comment": "Excellent performance!"
       }
     ]
   },
   {
-    "id": 1,
-    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-5950x/ryzen-9-5950x-1-500x500.jpg",
-    "productName": "AMD Ryzen 9 5950X",
+    "id": 6,
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-7-5800x/ryzen-7-5800x-1-500x500.jpg",
+    "productName": "AMD Ryzen 7 5800X",
     "category": "CPU / Processor",
     "status": "In Stock",
-    "price": 699.99,
-    "description": "High-performance processor for gaming and content creation.",
+    "price": 399.99,
+    "description": "A powerful processor for gaming and multitasking.",
     "keyFeatures": {
       "brand": "AMD",
-      "model": "Ryzen 9 5950X",
-      "cores": 16,
-      "threads": 32,
-      "baseClock": "3.4 GHz",
-      "maxBoostClock": "4.9 GHz",
-      "cache": "72 MB",
+      "model": "Ryzen 7 5800X",
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "3.8 GHz",
+      "maxBoostClock": "4.7 GHz",
+      "cache": "32 MB",
       "socket": "AM4",
       "powerConsumption": "105W"
     },
-    "individualRating": 4.9,
-    "averageRating": 4.8,
+    "individualRating": 4.7,
+    "averageRating": 4.5,
     "reviews": [
       {
-        "id": 801,
+        "id": 601,
         "user": "JaneSmith",
-        "rating": 5,
-        "comment": "Incredible performance for both gaming and multitasking."
+        "rating": 4,
+        "comment": "Great processor for both gaming and productivity."
       }
     ]
   },
@@ -116,6 +116,64 @@
         "user": "JaneSmith",
         "rating": 4,
         "comment": "Fast and beautiful RAM, but a bit pricey."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://m.media-amazon.com/images/I/41z2+vB0YnL._AC_.jpg",
+    "productName": "G.Skill Ripjaws V Series",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 79.99,
+    "description": "High-performance DDR4 RAM with a sleek design and excellent heat dissipation.",
+    "keyFeatures": {
+      "brand": "G.Skill",
+      "model": "Ripjaws V Series",
+      "capacity": "16GB (2x8GB)",
+      "speed": "3600MHz",
+      "timings": "CL18-22-22-42",
+      "voltage": "1.35V",
+      "formFactor": "288-pin DIMM",
+      "memoryType": "DDR4"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.4,
+    "reviews": [
+      {
+        "id": 802,
+        "user": "JohnDoe",
+        "rating": 5,
+        "comment": "Reliable and fast RAM for gaming and productivity tasks."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://creatuscomputer.com/wp-content/uploads/2022/03/Kingston-HyperX-FURY-DDR4-2400MHz-4GB-Ram-500x500-1.jpg",
+    "productName": "Kingston HyperX Fury",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 69.99,
+    "description": "Affordable and reliable DDR4 RAM for mainstream users.",
+    "keyFeatures": {
+      "brand": "Kingston",
+      "model": "HyperX Fury",
+      "capacity": "16GB (2x8GB)",
+      "speed": "2666MHz",
+      "timings": "CL16",
+      "voltage": "1.2V",
+      "formFactor": "288-pin DIMM",
+      "memoryType": "DDR4"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "id": 803,
+        "user": "JaneSmith",
+        "rating": 5,
+        "comment": "Great value RAM for everyday use and light gaming."
       }
     ]
   },
@@ -157,6 +215,74 @@
       }
     ]
   },
+  {
+    "id": 12,
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/msi-mpg-b550-gaming-plus-ddr4-am4-socket-amd-11595502716.webp",
+    "productName": "MSI MPG B550 Gaming Plus",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 179.99,
+    "description": "Gaming-focused motherboard with solid performance and features.",
+    "keyFeatures": {
+      "brand": "MSI",
+      "model": "MPG B550 Gaming Plus",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "memorySlots": 4,
+      "maxMemory": "128GB",
+      "memoryType": "DDR4",
+      "formFactor": "ATX",
+      "expansionSlots": ["PCIe x16", "PCIe x16", "PCIe x1"],
+      "storageConnectors": ["M.2", "M.2", "SATA"],
+      "USBPorts": ["USB 3.2 Gen 2 Type-A", "USB 3.2 Gen 1", "USB 2.0"],
+      "networking": ["2.5 Gigabit Ethernet"]
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "id": 902,
+        "user": "JaneSmith",
+        "rating": 4,
+        "comment": "Reliable and budget-friendly motherboard for gaming."
+      }
+    ]
+  },
+
+  {
+    "id": 13,
+    "image": "https://www.techlandbd.com/image/catalog/Motherboard/Gigabyte/aorus/b450m/gigabyte-b450m-aorus-elite-gaming-motherboard-3.jpg",
+    "productName": "Gigabyte B450 AORUS Elite",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "Feature-rich motherboard with RGB lighting support and good performance.",
+    "keyFeatures": {
+      "brand": "Gigabyte",
+      "model": "B450 AORUS Elite",
+      "chipset": "AMD B450",
+      "socket": "AM4",
+      "memorySlots": 4,
+      "maxMemory": "64GB",
+      "memoryType": "DDR4",
+      "formFactor": "ATX",
+      "expansionSlots": ["PCIe x16", "PCIe x16", "PCIe x1"],
+      "storageConnectors": ["M.2", "M.2", "SATA"],
+      "USBPorts": ["USB 3.1 Gen 2 Type-A", "USB 3.1 Gen 1", "USB 2.0"],
+      "networking": ["Gigabit Ethernet"]
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "id": 903,
+        "user": "JohnDoe",
+        "rating": 5,
+        "comment": "Great value motherboard with solid build quality."
+      }
+    ]
+  },
+
   {
     "id": 4,
     "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/corsair-rmx-shift-series-rm850x-850w-atx-fully-21678531579.webp",
@@ -203,6 +329,90 @@
         "user": "JaneSmith",
         "rating": 4,
         "comment": "Reliable PSU with ample wattage for my system."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://m.media-amazon.com/images/I/51UcIW5x4QL._AC_.jpg",
+    "productName": "EVGA SuperNOVA 750 G3",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "High-performance power supply with compact size and quiet operation.",
+    "keyFeatures": {
+      "brand": "EVGA",
+      "model": "SuperNOVA 750 G3",
+      "wattage": "750W",
+      "efficiency": "80 PLUS Gold",
+      "modular": "Fully Modular",
+      "fanSize": "130mm",
+      "protections": [
+        "Over Voltage",
+        "Over Current",
+        "Short Circuit",
+        "Under Voltage",
+        "Over Temperature"
+      ],
+      "certifications": ["80 PLUS Gold", "ATX12V 2.4", "EPS 2.92"],
+      "connectors": {
+        "motherboard": "24-pin ATX",
+        "CPU": "1x 4+4-pin EPS12V/ATX12V",
+        "PCIe": "6x 6+2-pin PCIe",
+        "SATA": "9x SATA",
+        "Molex": "6x Molex"
+      }
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "id": 1501,
+        "user": "JohnDoe",
+        "rating": 5,
+        "comment": "Quiet and efficient PSU with stable power delivery."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://seasonic.com/pub/media/catalog/product/cache/3cbda8e892dc62fc02660815c2a4b231/f/o/focus-gx-650-box_1.jpg",
+    "productName": "Seasonic FOCUS GX-650",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 109.99,
+    "description": "High-quality power supply with 80 PLUS Gold certification and fully modular design.",
+    "keyFeatures": {
+      "brand": "Seasonic",
+      "model": "FOCUS GX-650",
+      "wattage": "650W",
+      "efficiency": "80 PLUS Gold",
+      "modular": "Fully Modular",
+      "fanSize": "120mm",
+      "protections": [
+        "Over Voltage",
+        "Over Current",
+        "Short Circuit",
+        "Under Voltage",
+        "Over Temperature"
+      ],
+      "certifications": ["80 PLUS Gold", "ATX12V", "EPS12V"],
+      "connectors": {
+        "motherboard": "24-pin ATX",
+        "CPU": "1x 4+4-pin EPS12V/ATX12V",
+        "PCIe": "4x 6+2-pin PCIe",
+        "SATA": "8x SATA",
+        "Molex": "3x Molex"
+      }
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "id": 1601,
+        "user": "JaneSmith",
+        "rating": 5,
+        "comment": "Reliable PSU with great build quality and performance."
       }
     ]
   },
@@ -269,6 +479,82 @@
         "user": "JaneSmith",
         "rating": 4,
         "comment": "Excellent gaming monitor with vibrant colors."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://m.media-amazon.com/images/I/814UWxFOPGL.jpg",
+    "productName": "ASUS ROG Strix XG27UQ Gaming Monitor",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 899.99,
+    "description": "High-end gaming monitor with 4K UHD resolution and fast refresh rate.",
+    "keyFeatures": {
+      "brand": "ASUS",
+      "model": "ROG Strix XG27UQ",
+      "displaySize": "27 inches",
+      "resolution": "3840 x 2160 (4K UHD)",
+      "refreshRate": "144Hz",
+      "panelType": "IPS",
+      "responseTime": "1ms",
+      "HDRSupport": "HDR10, DisplayHDR 400",
+      "colorGamut": "DCI-P3 90%",
+      "ports": [
+        "2 x HDMI 2.0",
+        "2 x DisplayPort 1.4",
+        "1 x USB 3.0 Type-B",
+        "2 x USB 3.0 Type-A"
+      ],
+      "adjustableStand": "Yes (Height, Tilt, Swivel)",
+      "VESAMountSupport": "Yes"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "id": 1801,
+        "user": "JohnDoe",
+        "rating": 5,
+        "comment": "Impressive 4K gaming monitor with stunning visuals."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.rtings.com/assets/products/GUEQfRW8/dell-u2719d/design-medium.jpg",
+    "productName": "Dell Ultrasharp U2719D Monitor",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 349.99,
+    "description": "High-quality monitor with QHD resolution and wide color coverage.",
+    "keyFeatures": {
+      "brand": "Dell",
+      "model": "Ultrasharp U2719D",
+      "displaySize": "27 inches",
+      "resolution": "2560 x 1440 (QHD)",
+      "refreshRate": "60Hz",
+      "panelType": "IPS",
+      "responseTime": "5ms",
+      "HDRSupport": "No",
+      "colorGamut": "99% sRGB",
+      "ports": [
+        "1 x HDMI",
+        "1 x DisplayPort",
+        "1 x USB 3.0 Type-C",
+        "4 x USB 3.0 Type-A"
+      ],
+      "adjustableStand": "Yes (Height, Tilt, Swivel, Pivot)",
+      "VESAMountSupport": "Yes"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "id": 1901,
+        "user": "JaneSmith",
+        "rating": 4,
+        "comment": "Great monitor for productivity and multimedia."
       }
     ]
   },
