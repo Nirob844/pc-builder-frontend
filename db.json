@@ -29,6 +29,66 @@
       }
     ]
   },
+  {
+    "id": 1,
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-5950x/ryzen-9-5950x-1-500x500.jpg",
+    "productName": "AMD Ryzen 9 5950X",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 699.99,
+    "description": "High-performance processor for gaming and content creation.",
+    "keyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 9 5950X",
+      "cores": 16,
+      "threads": 32,
+      "baseClock": "3.4 GHz",
+      "maxBoostClock": "4.9 GHz",
+      "cache": "72 MB",
+      "socket": "AM4",
+      "powerConsumption": "105W"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": 801,
+        "user": "JaneSmith",
+        "rating": 5,
+        "comment": "Incredible performance for both gaming and multitasking."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-5950x/ryzen-9-5950x-1-500x500.jpg",
+    "productName": "AMD Ryzen 9 5950X",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 699.99,
+    "description": "High-performance processor for gaming and content creation.",
+    "keyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 9 5950X",
+      "cores": 16,
+      "threads": 32,
+      "baseClock": "3.4 GHz",
+      "maxBoostClock": "4.9 GHz",
+      "cache": "72 MB",
+      "socket": "AM4",
+      "powerConsumption": "105W"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": 801,
+        "user": "JaneSmith",
+        "rating": 5,
+        "comment": "Incredible performance for both gaming and multitasking."
+      }
+    ]
+  },
 
   {
     "id": 2,

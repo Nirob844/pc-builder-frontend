@@ -44,37 +44,46 @@ const Navbar = () => {
               <summary className="text-xl hover:text-white">Categories</summary>
               <ul className="p-2 bg-neutral">
                 <li>
-                  <Link className="hover:text-white" href="/cpu">
+                  <Link className="hover:text-white" href="/categories/cpu">
                     CPU / Processor
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white" href="/motherboard">
+                  <Link
+                    className="hover:text-white"
+                    href="/categories/motherboard"
+                  >
                     Motherboard
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white" href="/ram">
+                  <Link className="hover:text-white" href="/categories/ram">
                     RAM
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white" href="/power-supply">
+                  <Link
+                    className="hover:text-white"
+                    href="/categories/power-supply"
+                  >
                     Power Supply Unit
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white" href="/storage-device">
+                  <Link
+                    className="hover:text-white"
+                    href="/categories/storage-device"
+                  >
                     Storage Device
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white" href="/monitor">
+                  <Link className="hover:text-white" href="/categories/monitor">
                     Monitor
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white" href="/others">
+                  <Link className="hover:text-white" href="/categories/others">
                     Others
                   </Link>
                 </li>
