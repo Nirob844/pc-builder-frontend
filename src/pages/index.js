@@ -43,7 +43,7 @@ export const getStaticProps = async () => {
 
   // Select the first 6 products from the shuffled array to get 6 random products.
   const randomProducts = shuffledProducts.slice(0, 6);
-  console.log(randomProducts);
+  randomProducts;
   return {
     props: {
       allProducts: randomProducts,

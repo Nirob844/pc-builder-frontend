@@ -1,7 +1,7 @@
 import Products from "@/components/UI/Products";
 
 const MotherBoard = ({ products }) => {
-  console.log(products);
+  products;
   return (
     <div>
       <h1 className="mt-5 text-4xl font-bold text-center">MotherBoard</h1>
@@ -17,7 +17,7 @@ export const getStaticProps = async () => {
     `http://localhost:5000/categories?category=Motherboard`
   );
   const data = await res.json();
-  console.log(data);
+  data;
   return {
     props: {
       products: data.data,

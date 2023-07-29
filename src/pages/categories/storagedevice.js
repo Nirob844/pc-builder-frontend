@@ -1,7 +1,7 @@
 import Products from "@/components/UI/Products";
 
 const StoreDevice = ({ products }) => {
-  console.log(products);
+  products;
   return (
     <div>
       <h1 className="mt-5 text-4xl font-bold text-center">StoreDevice</h1>
@@ -17,7 +17,7 @@ export const getStaticProps = async () => {
     `http://localhost:5000/categories?category=Storage Device`
   );
   const data = await res.json();
-  console.log(data);
+  data;
   return {
     props: {
       products: data.data,

@@ -43,7 +43,7 @@ const Categories = () => {
   ];
 
   return (
-    <div className="w-11/12 mx-auto py-12 ">
+    <div className="mb-10 w-11/12 mx-auto py-12 ">
       <h1 className="text-center text-2xl font-semibold mb-2">Categories</h1>
       <p className="text-center mb-8">
         Get your products from our featured category!

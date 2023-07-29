@@ -1,7 +1,7 @@
 import ProductDetails from "@/components/UI/ProductDetails";
 
 const ProductPage = ({ product }) => {
-  console.log(product);
+  product;
   return (
     <div>
       <h1>product page</h1>
@@ -24,10 +24,10 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { params } = context;
-  console.log(params);
+  params;
   const res = await fetch(`http://localhost:5000/product/${params.productId}`);
   const data = await res.json();
-  console.log(data);
+  data;
   return {
     props: {
       product: data.data,

@@ -1,7 +1,7 @@
 import ProductCard from "./ProductCard";
 
 const Products = ({ allProducts }) => {
-  console.log(allProducts);
+  allProducts;
   return (
     <div>
       <h1 className="text-center text-2xl font-semibold mb-2">Products</h1>
