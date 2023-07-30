@@ -27,14 +27,14 @@ const SignUp = () => {
             <button
               onClick={() =>
                 signIn("google", {
-                  callbackUrl: "http://localhost:3000/",
+                  callbackUrl: "https://pc-builder-frontend-pi.vercel.app/",
                 })
               }
             />
             <button
               onClick={() =>
                 signIn("github", {
-                  callbackUrl: "http://localhost:3000/",
+                  callbackUrl: "https://pc-builder-frontend-pi.vercel.app/",
                 })
               }
             />
@@ -98,7 +98,7 @@ const SignUp = () => {
               <button
                 onClick={() =>
                   signIn("google", {
-                    callbackUrl: "http://localhost:3000/",
+                    callbackUrl: "https://pc-builder-frontend-pi.vercel.app/",
                   })
                 }
                 className=" my-2 w-full btn btn-outline btn-neutral"

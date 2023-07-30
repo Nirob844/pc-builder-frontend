@@ -13,7 +13,7 @@ const ProductPage = ({ product }) => {
 export default ProductPage;
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("https://pc-bulder-backend.vercel.app/products");
   const products = await res.json();
 
   const paths = products.data.map((product) => ({
@@ -25,7 +25,9 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const { params } = context;
   params;
-  const res = await fetch(`http://localhost:5000/product/${params.productId}`);
+  const res = await fetch(
+    `https://pc-bulder-backend.vercel.app/product/${params.productId}`
+  );
   const data = await res.json();
   data;
   return {

@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 const ProductDetails = ({ product }) => {
   const {
     productName,
@@ -12,14 +14,18 @@ const ProductDetails = ({ product }) => {
 
   return (
     <div className="my-10 flex flex-col md:flex-row max-w-7xl mx-auto items-center border-b border-gray-300 w-[80%]">
+      <Head>
+        <title>ProductDetails</title>
+      </Head>
       <div className="mr-5 w-full md:w-[50%] h-[600px]">
         <img src={image} alt="" className="w-full h-full object-contain" />
       </div>
       <div className="ml-5 w-full md:w-[50%] space-y-3">
         <h1 className="text-3xl font-semibold">{productName}</h1>
-        <h3 className="mt-2 font-semibold">{category}</h3>
-        <p className="text-sm mt-2">Availability: {status}</p>
-        <p className="text-sm mt-2">Price: {price}$</p>
+        <h3 className="mt-2 font-semibold text-blue-400">{category}</h3>
+        <button className="btn btn-sm text-green-400"> {status}</button>
+        <br />
+        <button className="btn btn-sm text-red-400">{price}$</button>
         <p className="text-sm mt-2">Rating: {reviews?.rating} / 5</p>
         <p className="text-sm mt-2">Description: {description}</p>
         <div className="mt-3">

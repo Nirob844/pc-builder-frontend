@@ -11,11 +11,11 @@ const Categories = () => {
     {
       title: "Motherboard",
       image: "/images/motherboard.png",
-      href: "/categories/motherboard",
+      href: "/categories/motherboard1.png",
     },
     {
       title: "RAM",
-      image: "/images/ram.png",
+      image: "/images/ram1.png",
       href: "/categories/ram",
     },
 
@@ -37,7 +37,7 @@ const Categories = () => {
 
     {
       title: "Others",
-      image: "/images/others.png",
+      image: "/images/others1.png",
       href: "/categories/others",
     },
   ];

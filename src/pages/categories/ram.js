@@ -1,9 +1,13 @@
 import AllCategory from "@/components/UI/AllCategory";
+import Head from "next/head";
 
 const Ram = ({ products }) => {
   products;
   return (
     <div>
+      <Head>
+        <title>Ram</title>
+      </Head>
       <h1 className="mt-5 text-4xl font-bold text-center">Ram</h1>
       <AllCategory allCategory={products} />
     </div>
@@ -13,7 +17,9 @@ const Ram = ({ products }) => {
 export default Ram;
 
 export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:5000/categories?category=RAM`);
+  const res = await fetch(
+    `https://pc-bulder-backend.vercel.app/categories?category=RAM`
+  );
   const data = await res.json();
   data;
   return {

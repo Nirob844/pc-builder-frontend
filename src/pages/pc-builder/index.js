@@ -2,9 +2,11 @@ import { removeToBuilder, selectCategory } from "@/redux/features/builderSlice";
 import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const PcBuilder = () => {
+  const [buildCompleted, setBuildCompleted] = useState(false);
   const router = useRouter();
   const dispatch = useDispatch();
   const categories = [
@@ -84,6 +86,7 @@ const PcBuilder = () => {
         others: null,
       })
     );
+    setBuildCompleted(true); // Set the buildCompleted state to true
   };
 
   return (
@@ -116,6 +119,11 @@ const PcBuilder = () => {
             <button disabled type="button" className="btn btn-success">
               Complete Build
             </button>
+          )}
+          {buildCompleted && (
+            <div className="alert alert-success " role="alert">
+              Build Completed Successfully!
+            </div>
           )}
         </div>
         <div className="grid grid-cols-1 gap-8">

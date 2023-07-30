@@ -34,7 +34,7 @@ export const shuffleArray = (array) => {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("https://pc-bulder-backend.vercel.app/products");
   const data = await res.json();
   const allProducts = data.data;
 
