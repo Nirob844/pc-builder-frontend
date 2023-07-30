@@ -13,7 +13,7 @@ const ProductCard = ({ product }) => {
       <p className="text-sm mt-2">Availability: {status}</p>
       <p className="text-sm mt-2">Price: {price}$</p>
       <p className="text-sm mt-2">Rating: {reviews?.rating}5</p>
-      <button className=" mt-3 btn btn-neutral">Add To Build</button>
+      <button className=" mt-3 btn btn-neutral">Add To Cart</button>
     </div>
   );
 };

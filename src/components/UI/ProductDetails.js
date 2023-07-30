@@ -37,7 +37,7 @@ const ProductDetails = ({ product }) => {
             </div>
           ))}
         </div>
-        <button className=" my-5 btn btn-neutral">Pc-Build</button>
+        <button className=" my-5 btn btn-neutral">Add To Cart</button>
       </div>
     </div>
   );

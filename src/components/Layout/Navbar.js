@@ -107,7 +107,9 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-end">
-        <a className="btn  ">PC-Builder</a>
+        <Link href="/pc-builder" className="btn  ">
+          PC-Builder
+        </Link>
         {session?.user ? (
           <button onClick={() => signOut()} className="btn btn-ghost">
             Logout

@@ -95,7 +95,14 @@ const SignUp = () => {
                   Sign up
                 </button>
               </div>
-              <button className=" my-2 w-full btn btn-outline btn-neutral">
+              <button
+                onClick={() =>
+                  signIn("google", {
+                    callbackUrl: "http://localhost:3000/",
+                  })
+                }
+                className=" my-2 w-full btn btn-outline btn-neutral"
+              >
                 Sign in with google
               </button>
 
