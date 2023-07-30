@@ -5,7 +5,7 @@ const Banner = () => {
     <div>
       <div className="mx-auto my-20">
         <div className="flex justify-between items-center ">
-          <div className="w-1/2 ml-20">
+          <div className="w-1/2 sm:ml-5 lg:ml-20">
             <h1 className="text-6xl font-black  mb-2">
               PC-Stall <br />
             </h1>

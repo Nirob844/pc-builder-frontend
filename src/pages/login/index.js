@@ -1,15 +1,10 @@
 import { signIn } from "next-auth/react";
 import Head from "next/head";
-import Link from "next/link";
-import { useForm } from "react-hook-form";
+import { useRouter } from "next/router";
 
 const Login = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const router = useRouter();
+  const { callbackUrl } = router.query;
   return (
     <div>
       <Head>
@@ -22,70 +17,28 @@ const Login = () => {
             Sign in to access your account
           </p>
         </div>
-        <div>
-          <form onSubmit={handleSubmit(onSubmit)} className="space-y-12">
-            <div className="space-y-4">
-              <div>
-                <label htmlFor="email" className="block mb-2 text-sm">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="leroy@jenkins.com"
-                  className="w-full px-3 py-2 border rounded-md "
-                  {...register("email", { required: true })}
-                />
-                {errors.email && <p>Email is required</p>}
-              </div>
-              <div>
-                <div className="flex justify-between mb-2">
-                  <label htmlFor="password" className="text-sm">
-                    Password
-                  </label>
-                  <a
-                    rel="noopener noreferrer"
-                    href="#"
-                    className="text-xs hover:underline "
-                  >
-                    Forgot password?
-                  </a>
-                </div>
-                <input
-                  type="password"
-                  id="password"
-                  placeholder="*****"
-                  className="w-full px-3 py-2 border rounded-md  "
-                  {...register("password", { required: true })}
-                />
-                {errors.password && <p>Password is required</p>}
-              </div>
-            </div>
-            <div className="">
-              <div>
-                <button type="submit" className="my-2 w-full btn btn-neutral">
-                  Sign in
-                </button>
-              </div>
-              <button
-                onClick={() =>
-                  signIn("google", {
-                    callbackUrl: "http://localhost:3000/",
-                  })
-                }
-                className=" my-2 w-full btn btn-outline btn-neutral"
-              >
-                Sign in with google
-              </button>
 
-              <p className="px-6 text-sm text-center ">
-                Do not have an account?.
-                <Link href="/signup" className="text-violet-500">
-                  Sign Up
-                </Link>
-              </p>
-            </div>
-          </form>
+        <div className="">
+          <button
+            onClick={() =>
+              signIn("google", {
+                callbackUrl: callbackUrl || "http://localhost:3000/",
+              })
+            }
+            className=" my-2 w-full btn btn-outline btn-neutral"
+          >
+            Sign in with google
+          </button>
+          <button
+            onClick={() =>
+              signIn("github", {
+                callbackUrl: "http://localhost:3000/",
+              })
+            }
+            className=" my-2 w-full btn btn-outline btn-neutral"
+          >
+            Sign in with github
+          </button>
         </div>
       </div>
     </div>

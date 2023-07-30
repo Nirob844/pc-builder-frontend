@@ -32,20 +32,63 @@ const Navbar = () => {
               <a>Parent</a>
               <ul className="p-2 bg-neutral">
                 <li>
-                  <a>Submenu 1</a>
+                  <Link className="hover:text-white" href="/">
+                    Pc Stall
+                  </Link>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <Link className="hover:text-white" href="/categories/cpu">
+                    CPU / Processor
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="hover:text-white"
+                    href="/categories/motherboard"
+                  >
+                    Motherboard
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white" href="/categories/ram">
+                    RAM
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="hover:text-white"
+                    href="/categories/power-supply"
+                  >
+                    Power Supply Unit
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="hover:text-white"
+                    href="/categories/storagedevice"
+                  >
+                    Storage Device
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white" href="/categories/monitor">
+                    Monitor
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white" href="/categories/others">
+                    Others
+                  </Link>
                 </li>
               </ul>
             </li>
           </ul>
         </div>
-        <ul className="menu menu-horizontal px-1 bg-neutral">
+        <ul className="menu menu-horizontal px-1 bg-neutral hidden md:block">
           <li tabIndex={0}>
             <details className=" ">
               <summary className="text-xl hover:text-white">Categories</summary>
-              <ul className="p-2 bg-neutral">
+              <ul className="p-2 bg-neutral ">
                 <li>
                   <Link className="hover:text-white" href="/categories/cpu">
                     CPU / Processor
