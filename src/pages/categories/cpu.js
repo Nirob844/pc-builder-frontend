@@ -1,11 +1,11 @@
-import Products from "@/components/UI/Products";
+import AllCategory from "@/components/UI/AllCategory";
 
 const Cpu = ({ products }) => {
   products;
   return (
     <div>
       <h1 className="mt-5 text-4xl font-bold text-center">Cpu</h1>
-      <Products allProducts={products} />
+      <AllCategory allCategory={products} />
     </div>
   );
 };

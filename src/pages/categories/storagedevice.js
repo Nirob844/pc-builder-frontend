@@ -1,11 +1,11 @@
-import Products from "@/components/UI/Products";
+import AllCategory from "@/components/UI/AllCategory";
 
 const StoreDevice = ({ products }) => {
   products;
   return (
     <div>
       <h1 className="mt-5 text-4xl font-bold text-center">StoreDevice</h1>
-      <Products allProducts={products} />
+      <AllCategory allCategory={products} />
     </div>
   );
 };

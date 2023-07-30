@@ -44,9 +44,11 @@ const Categories = () => {
 
   return (
     <div className="mb-10 w-11/12 mx-auto py-12 ">
-      <h1 className="text-center text-2xl font-semibold mb-2">Categories</h1>
+      <h1 className="text-center text-2xl font-semibold mb-2">
+        Featured Category
+      </h1>
       <p className="text-center mb-8">
-        Get your products from our featured category!
+        Get Your Desired Product from Featured Category!
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-8 justify-between">
         {categories?.map((category, i) => (

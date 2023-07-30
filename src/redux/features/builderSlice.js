@@ -10,27 +10,27 @@ const initialState = {
     powersupply: null,
     others: null,
   },
-  chooseSelectedCategory: "",
+  selectedCategory: "",
 };
 
 const builderSlice = createSlice({
   name: "builder",
   initialState,
   reducers: {
-    addProductToBuilder: (state, action) => {
+    addToBuilder: (state, action) => {
       state.selectedProducts[action.payload.key] = action.payload.data;
     },
-    chooseSelectCategory: (state, action) => {
-      state.chooseSelectedCategory = action.payload;
+    selectCategory: (state, action) => {
+      state.selectedCategory = action.payload;
     },
-    clearBuilder: (state, action) => {
+    removeToBuilder: (state, action) => {
       state.selectedProducts = action.payload;
-      state.chooseSelectedCategory = "";
+      state.selectedCategory = "";
     },
   },
 });
 
-export const { addProductToBuilder, chooseSelectCategory, clearBuilder } =
+export const { addToBuilder, selectCategory, removeToBuilder } =
   builderSlice.actions;
 
 export default builderSlice.reducer;

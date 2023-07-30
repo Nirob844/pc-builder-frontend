@@ -99,12 +99,6 @@ const Navbar = () => {
         <Link href="/" className="btn btn-ghost normal-case text-xl">
           PC-Stall
         </Link>
-        <Link href="/" className="btn btn-ghost ">
-          Home
-        </Link>
-        <Link href="/product" className="btn btn-ghost ">
-          All Product
-        </Link>
       </div>
       <div className="navbar-end">
         <Link href="/pc-builder" className="btn  ">
