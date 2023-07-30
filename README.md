@@ -1,24 +1,11 @@
 # Pc-Builder Frontend
 
-## Getting Started
+## [Live Link]
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
 Frontend Live Link: https://pc-builder-frontend-pi.vercel.app/
 
 Frontend Github Repository Link : https://github.com/Nirob844/pc-builder-frontend
-
-# PC Build Application
-
-![PC Build Application](link_to_app_screenshot)
 
 ## Description
 
